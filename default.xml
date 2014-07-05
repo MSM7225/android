@@ -21,7 +21,6 @@
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -146,7 +145,6 @@
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
@@ -276,15 +274,17 @@
   <project path="packages/apps/HwaSettings" name="androidarmv6/android_packages_apps_HwaSettings" remote="github" revision="ics-plus" />
   <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" remote="github" revision="ics-plus" />
   <project path="packages/apps/Trebuchet" name="androidarmv6/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
-  <project path="vendor/cm" name="androidarmv6/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
   <!-- END: androidarmv6 repos -->
 
   <!--START: customized repos -->
   <project path="android" name="MSM7225/android" remote="github" revision="ics-plus" />
   <project path="frameworks/base" name="MSM7225/android_frameworks_base" remote="github" revision="ics-plus" />
-  <project path="bionic" name="MSM7225/android_bionic" remote="github" revision="ics"/>
-  <project path="build" name="MSM7225/android_build" remote="github" revision="ics-plus">
+  <project path="bionic" name="MSM7225/android_bionic" remote="github" revision="ics" />
+  <project path="external/webkit" name="MSM7225/android_external_webkit" remote="github" revision="ics" />
+  <project path="vendor/cm" name="MSM7225/android_vendor_cm" remote="github" revision="ics-plus" />
+  <project path="dalvik" name="MSM7225/android_dalvik" remote="github" revision="ics" />
+  <project path="build" name="MSM7225/android_build" remote="github" revision="ics-plus" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- END: customized repos -->
