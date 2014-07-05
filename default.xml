@@ -278,7 +278,7 @@
   <!-- END: androidarmv6 repos -->
 
   <!--START: customized repos -->
-  <project path="android" name="MSM7225/android" remote="github" revision="ics-plus" />
+  <project path="android" name="MSM7225/android" remote="github" revision="ics" />
   <project path="frameworks/base" name="MSM7225/android_frameworks_base" remote="github" revision="ics-plus" />
   <project path="bionic" name="MSM7225/android_bionic" remote="github" revision="ics" />
   <project path="external/webkit" name="MSM7225/android_external_webkit" remote="github" revision="ics" />
