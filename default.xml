@@ -284,7 +284,7 @@
   <project path="external/webkit" name="MSM7225/android_external_webkit" remote="github" revision="ics" />
   <project path="vendor/cm" name="MSM7225/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="dalvik" name="MSM7225/android_dalvik" remote="github" revision="ics" />
-  <project path="build" name="MSM7225/android_build" remote="github" revision="ics-plus" />
+  <project path="build" name="MSM7225/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- END: customized repos -->
