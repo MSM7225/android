@@ -158,7 +158,6 @@
 <!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/media/libvideoeditor" name="CyanogenMod/android_frameworks_media_libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -284,6 +283,7 @@
   <project path="external/webkit" name="MSM7225/android_external_webkit" remote="github" revision="ics" />
   <project path="vendor/cm" name="MSM7225/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="dalvik" name="MSM7225/android_dalvik" remote="github" revision="ics" />
+  <project path="frameworks/compile/slang" name="MSM7225/android_frameworks_compile_slang" remote="github" revision="ics" />
   <project path="build" name="MSM7225/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
