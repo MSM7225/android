@@ -291,6 +291,7 @@
   
   <!--START: device repos -->
   <project path="device/huawei/u8160" name="MSM7225/android_device_huawei_u8160"  remote="github" revision="ics" />
+  <project path="device/huawei/u8150" name="MSM7225/android_device_huawei_u8150"  remote="github" revision="ics" />
   <project path="vendor/huawei" name="MSM7225/proprietary_vendor_huawei" remote="github" revision="ics" />
   <project path="kernel/huawei/msm7x25-common" name="MSM7225/android_kernel_huawei_msm7x25" remote="github" revision="ics" />
   <!-- END: device repos -->
