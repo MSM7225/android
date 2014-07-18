@@ -168,7 +168,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
@@ -284,6 +283,7 @@
   <project path="vendor/cm" name="MSM7225/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="dalvik" name="MSM7225/android_dalvik" remote="github" revision="ics" />
   <project path="frameworks/compile/slang" name="MSM7225/android_frameworks_compile_slang" remote="github" revision="ics" />
+  <project path="hardware/broadcom/wlan" name="MSM7225/android_hardware_broadcom_wlan" remote="github" revision="ics" />
   <project path="build" name="MSM7225/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
